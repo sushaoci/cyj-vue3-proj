@@ -3,10 +3,10 @@
         <div>
             <nav class="flex justify-center gap-2 m-20">
                 <PublicButton>
-                    <RouterLink to="/lazyload/viewport">ViewPort</RouterLink>
+                    <RouterLink to="/viewport">ViewPort</RouterLink>
                 </PublicButton>
                 <PublicButton>
-                    <RouterLink to="/lazyload/observer">Observer</RouterLink>
+                    <RouterLink to="/observer">Observer</RouterLink>
                 </PublicButton>
             </nav>
             <main>

@@ -2,7 +2,7 @@
 import LazyLoadImageObserver from '@/components/LazyLoadImage/LazyLoadImageObserver.vue'
 
 const getImgUrl = (id) => {
-    const imgUrl = new URL(`../../assets/lotsofimages/copy${id}.jpeg`, import.meta.url).href
+    const imgUrl = new URL(`../../assets/lotsofimages/image${id}.jpeg`, import.meta.url).href
     return imgUrl
 }
 </script>
